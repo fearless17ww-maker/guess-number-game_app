@@ -38,7 +38,7 @@ jobs:
     # 6. 开始打包 (这一步最耗时)
     - name: Build APK
       run: |
-        flet build apk --project-name guess_game
+        flet build apk --product "猜数字Pro" --org "com.mygame.guess" --icon assets/icon.png
 
     # 7. 把打包好的文件上传给你下载
     - name: Upload APK
