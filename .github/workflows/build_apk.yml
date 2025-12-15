@@ -33,7 +33,7 @@ jobs:
     # 5. 安装 Flet 库
     - name: Install Dependencies
       run: |
-        pip install -r requirements.txt
+        pip install flet
 
     # 6. 开始打包 (这一步最耗时)
     - name: Build APK
